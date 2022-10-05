@@ -10,10 +10,13 @@ const Navbar = () => {
     setClick(!click);
     console.log('click')
   }
+  const closeMenu = () => {
+    setClick(!click);
+  }
 
   return (
     <div className="header">
-      <nav className="navbar">
+      <nav className="navbar" id="navbar">
         <a href="/" className="logo">
           <img src={logo} alt="logo" />
         </a>
@@ -22,16 +25,16 @@ const Navbar = () => {
         </div>
         <ul className={click ? ('nav-menu active') : ('nav-menu')}>
             <li className="nav-item">
-                <a href="#">Home</a>
+                <a href="#hero" onClick={closeMenu}>Home</a>
             </li>
             <li className="nav-item">
-                <a href="#">About</a>
+                <a href="#about" onClick={closeMenu}>About</a>
             </li>
             <li className="nav-item">
-                <a href="#">Testimonials</a>
+                <a href="#testimonials" onClick={closeMenu}>Testimonials</a>
             </li>
             <li className="nav-item">
-                <a href="#">Demo</a>
+                <a href="#demo" onClick={closeMenu}>Demo</a>
             </li>
         </ul>
       </nav>
