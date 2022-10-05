@@ -44,4 +44,19 @@
     width: 300px;
     background-color: var(--secondary-dark);
     border: 1px solid var(--secondary-dark);
+    color: #333;
+}
+@media screen and (max-width: 940px){
+    .hero .content p:nth-child(3) {
+        font-size: 2.5rem;
+    }
+    .hero .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }    
+    .hero .button {
+        width: 280px;
+    }
+
+    
+    
 }
