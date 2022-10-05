@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Execute-financial/static/css/main.7a4a3474.css",
+    "main.js": "/Execute-financial/static/js/main.cb2b2fa2.js",
+    "static/media/hero.jpg": "/Execute-financial/static/media/hero.8562676a6412e9ec4644.jpg",
+    "static/media/john-doe.png": "/Execute-financial/static/media/john-doe.e4675f127b56d41e5c8a.png",
+    "static/media/logo.png": "/Execute-financial/static/media/logo.014fa922a0314801d50d.png",
+    "index.html": "/Execute-financial/index.html",
+    "main.7a4a3474.css.map": "/Execute-financial/static/css/main.7a4a3474.css.map",
+    "main.cb2b2fa2.js.map": "/Execute-financial/static/js/main.cb2b2fa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a4a3474.css",
+    "static/js/main.cb2b2fa2.js"
+  ]
+}
