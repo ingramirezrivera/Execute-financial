@@ -1,12 +1,11 @@
 .testimonials {
     width: 1240px;
     margin: 0 auto;
-    padding-top: 5rem;
 }
 
 .testimonials .container {
     width: 90%;
-    margin: 4rem auto 0;
+    margin: 4rem auto;
     padding: 4rem 0rem;
 }
 
